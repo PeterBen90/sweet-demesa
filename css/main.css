@@ -352,7 +352,7 @@ strong {
 .hero {
 	position: relative;
 	overflow: hidden;
-	background: url(/images/portfolio/IMG_2.jpg) no-repeat fixed center center;
+	background: url(/images/portfolio/IMG_14.jpg) no-repeat fixed center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -469,7 +469,8 @@ strong {
 }
 
 .news-title-link {
-	color: var(--title-color);
+	/* color: var(--title-color); */
+	color: black;
 	display: inline-block;
 }
 
@@ -584,7 +585,8 @@ strong {
 }
 
 .form-label {
-	color: var(--p-color);
+	/* color: var(--p-color); */
+	color: black;
 	font-weight: var(--font-weight-bold);
 }
 
@@ -776,7 +778,7 @@ strong {
 	} */
 
 	.hero {
-		background: url(/images/portfolio/IMG_2.jpg) no-repeat center center !important;
+		background: url(/images/portfolio/IMG_14.jpg) no-repeat center center !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
