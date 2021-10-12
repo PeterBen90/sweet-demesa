@@ -742,6 +742,14 @@ strong {
 	.social-icon-link {
 		font-size: 1rem;
 	}
+
+	#hero {
+		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 @media screen and (max-width: 360px) {
