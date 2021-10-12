@@ -686,6 +686,11 @@ strong {
 	border-bottom: 5px solid black;
 }
 
+.icon {
+	font-size: 16px !important;
+	bottom: 4px;
+}
+
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
