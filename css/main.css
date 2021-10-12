@@ -743,7 +743,7 @@ strong {
 		font-size: 1rem;
 	}
 
-	.hero {
+	.videoWrapper {
 		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center fixed !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
