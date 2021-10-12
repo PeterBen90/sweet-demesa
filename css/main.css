@@ -724,6 +724,24 @@ strong {
 	.news-detail-title {
 		font-size: 36px;
 	}
+
+	.logo-main {
+		height: 120px !important;
+		width: auto;
+	}
+
+	.hero-sub {
+		font-size: 25px;
+	}
+
+	.sub {
+		font-size: small;
+		text-align: center;
+	}
+
+	.social-icon-link {
+		font-size: 1rem;
+	}
 }
 
 @media screen and (max-width: 360px) {
