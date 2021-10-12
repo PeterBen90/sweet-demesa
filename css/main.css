@@ -349,7 +349,7 @@ strong {
 /*---------------------------------------
   HERO              
 -----------------------------------------*/
-.hero {
+/* .hero {
 	position: relative;
 	overflow: hidden;
 	background: url(/images/portfolio/IMG_14.jpg) no-repeat fixed center center;
@@ -357,7 +357,7 @@ strong {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+} */
 
 @media screen and (min-width: 992px) {
 	.hero {
@@ -381,7 +381,7 @@ strong {
 	position: absolute;
 	z-index: 9;
 	left: 50%;
-	top: 40%;
+	top: 50%;
 	transform: translate(-50%, -50%);
 	width: 85%;
 	text-align: center;
@@ -691,6 +691,106 @@ strong {
 	bottom: 3px;
 }
 
+/* Owl Carousel */
+
+.carousel-wrap {
+	margin: 30px auto;
+	padding: 0 5%;
+	width: 100%;
+	position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+	position: relative;
+	z-index: 100;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+	margin-top: -26px;
+	position: absolute;
+	top: 40%;
+	color: #000;
+}
+
+.owl-nav i {
+	font-size: 35px;
+}
+
+.owl-nav .owl-prev {
+	left: -30px;
+}
+
+.owl-nav .owl-next {
+	right: -30px;
+}
+
+.version {
+	margin-left: 10px;
+}
+
+.version-two,
+.wireframes {
+	margin-top: 80px;
+}
+
+.user-testing {
+	margin-top: 50px;
+}
+
+.changes {
+	height: auto;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.change-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mid-fi {
+	margin-top: 100px;
+}
+
+.owl-carousel .owl-dots {
+	text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot {
+	display: inline-block;
+	margin: 4px;
+}
+.owl-carousel .owl-dots .owl-dot span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #bbbbbb;
+}
+.owl-carousel .owl-dots .owl-dot.active span {
+	background: #ff696c;
+}
+
+/* .review {
+	background: #212529;
+} */
+
+.testimonial p {
+	color: #fff !important;
+	text-align: center;
+}
+
+.review-title {
+	color: #fff;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
@@ -782,13 +882,21 @@ strong {
 		height: 90vh;
 	} */
 
-	.hero {
+	/* .hero {
 		background: url(/images/portfolio/IMG_14.jpg) no-repeat center center !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		height: 90vh;
+	} */
+
+	.hero {
+		height: 90vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 }
 

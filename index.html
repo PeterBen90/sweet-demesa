@@ -20,6 +20,7 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
 
         <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -77,7 +78,7 @@
                 </div>
             </nav>
 
-            <section class="hero" id="hero">
+            <section class="hero parallax-window" data-parallax="scroll" data-image-src="images/portfolio/Parallax.png" id="hero">
                 
                 <div class="heroText">
                     <img class="logo-main" src="/images/logo/Sweet de Mesa.png" data-aos="zoom-in" data-aos-delay="800" alt="logo">
@@ -92,7 +93,7 @@
                     </video>
                 </div> -->
 
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
             </section>
 
             <section id="about">
@@ -220,7 +221,7 @@
                                 </a>
                             </div> 
 
-                            <div class="portfolio-thumb" data-aos="fade-up">
+                            <div class="portfolio-thumb mb-5" data-aos="fade-up">
                                 <a href="images/portfolio/IMG_12.jpg" class="image-popup">
                                     <img src="images/portfolio/IMG_12.jpg" class="img-fluid portfolio-image" alt="">
                                 </a>
@@ -255,76 +256,81 @@
                 </div>
             </section>
 
-            <section class="section-padding"id="reviews">
-                <div class="container-fluid">
-                    <div class="row">
-
-                        <div class="col-12">
-                            <h2 class="mb-5 text-center" data-aos="fade-up">Reviews</h2>
-                        </div>
-
-                        <div class="col-lg-12 col-12 p-0">  
-                            <section id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="images/people/Slide-1.png" class="img-fluid team-image" alt="">
-
-
-                                        <div class="team-thumb bg-warning">
-                                            <h3 class="text-white mb-0">Caitlyn & Sam</h3>
-
-                                            <!-- <p class="text-secondary-white-color mb-0">Founding Partner</p> -->
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="images/people/Slide-2.png" class="img-fluid team-image" alt="">
-
-                                        <div class="team-thumb bg-warning">
-                                            <h3 class="text-white mb-0">Lori M.</h3>
-
-                                            <!-- <p class="text-secondary-white-color mb-0">CEO & Investor</p> -->
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="images/people/Slide-3.png" class="img-fluid team-image" alt="">
-
-                                        <div class="team-thumb bg-warning">
-                                            <h3 class="text-white mb-0">Sara P.</h3>
-
-                                            <!-- <p class="text-secondary-white-color mb-0">Art Director</p> -->
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="images/people/Slide-4.png" class="img-fluid team-image" alt="">
-
-                                        <div class="team-thumb bg-warning">
-                                            <h3 class="text-white mb-0">Robin O.</h3>
-
-                                            <!-- <p class="text-secondary-white-color mb-0">Sales & Marketing</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-                                      <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-                                      <span class="visually-hidden">Next</span>
-                                </button>
-                            </section>
-
-                        </div>
-                    </div>
+            <section class="section-padding review parallax-window" data-parallax="scroll" data-image-src="images/portfolio/Parallax.png"id="reviews">
+				
+                <div class="col-12">
+                    <h2 class="mb-5 text-center review-title" data-aos="fade-up">Reviews</h2>
                 </div>
-            </section>
+
+				<div class="container">
+				<div class="slide-one-item home-slider owl-carousel" data-aos="fade-up">
+					<div>
+						<div class="testimonial"
+						
+						<blockquote class="mb-5">
+							<p>&ldquo;January’s work far exceeded my expectations. Not only do her creations look amazing, they also taste just as good. I highly recommend Sweet de Mesa!&rdquo;</p>
+						</blockquote>
+			
+						<figure class="mb-4 d-flex align-items-center justify-content-center">
+							<div>
+								<i class="fas fa-user-circle"></i>
+							</div>
+							<p class="bold">Caitlyn & Sam</p>
+						</figure>
+						</div>
+					</div>
+					<div>
+						<div class="testimonial">
+			
+						<blockquote class="mb-5">
+							<p>&ldquo;January is SO talented! I ordered a cake and cupcakes for my baby shower and everything was absolutely beautiful and so delicious! It was exactly what I was looking for. I will be using Sweet deMesa again and again!&rdquo;</p>
+						</blockquote>
+						<figure class="mb-4 d-flex align-items-center justify-content-center">
+							<div>
+								<i class="fas fa-user-circle"></i>
+							</div>
+							<p class="bold">Lori M.</p>
+						</figure>
+						
+						</div>
+					</div>
+			
+					<div>
+						<div class="testimonial">
+			
+						<blockquote class="mb-5">
+							<p>&ldquo;I have used Sweet de Mesa  twice now for cakes and I am never disappointed. Not only are they stunning but they taste delicious. I highly recommend.&rdquo;</p>
+						</blockquote>
+						<figure class="mb-4 d-flex align-items-center justify-content-center">
+							<div>
+								<i class="fas fa-user-circle"></i>
+							</div>
+							<p class="bold">Sara P.</p>
+						</figure>
+			
+						
+						</div>
+					</div>
+			
+					<div>
+						<div class="testimonial">
+			
+						<blockquote class="mb-5">
+							<p>&ldquo;Sweet de Mesa is fantastic! We do not celebrate any occasion without one of her creations.&rdquo;</p>
+						</blockquote>
+						<figure class="mb-4 d-flex align-items-center justify-content-center">
+							<div>
+								<i class="fas fa-user-circle"></i>
+							</div>
+							<p class="bold">Robin O.</p>
+						</figure>
+			
+						</div>
+					</div>
+			
+					</div>
+				
+			</section>
 
             <section class="contact section-padding" id="contact">
                 <div class="container">
@@ -413,7 +419,9 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
+        <script src="js/parallax.min.js"></script>
         <script src="js/aos.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
