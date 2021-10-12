@@ -738,6 +738,24 @@ strong {
 	.about-us {
 		font-size: 12px;
 	}
+
+	.logo-main {
+		height: 100px !important;
+		width: auto;
+	}
+
+	.hero-sub {
+		font-size: medium;
+	}
+
+	.sub {
+		font-size: small;
+		text-align: center;
+	}
+
+	.social-icon-link {
+		font-size: 1rem;
+	}
 }
 
 @media screen and (max-width: 359px) {
