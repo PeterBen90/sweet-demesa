@@ -742,18 +742,6 @@ strong {
 	.social-icon-link {
 		font-size: 1rem;
 	}
-
-	.videoWrapper {
-		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center fixed !important;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	.custom-video {
-		display: none;
-	}
 }
 
 @media screen and (max-width: 360px) {
@@ -785,18 +773,6 @@ strong {
 
 	.social-icon-link {
 		font-size: 1rem;
-	}
-
-	.videoWrapper {
-		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center fixed !important;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	.custom-video {
-		display: none;
 	}
 }
 
