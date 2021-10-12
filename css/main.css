@@ -749,12 +749,12 @@ strong {
 	}
 
 	.videoWrapper {
-		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center fixed !important;
+		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		z-index: 0;
+		height: 100vh;
 	}
 }
 
