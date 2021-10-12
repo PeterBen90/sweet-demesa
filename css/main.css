@@ -95,7 +95,8 @@ h6 {
 }
 
 p {
-	color: var(--p-color);
+	/* color: var(--p-color); */
+	color: #000;
 	font-size: var(--p-font-size);
 	font-weight: var(--font-weight-light);
 	letter-spacing: 0.5px;
@@ -133,7 +134,7 @@ a:hover {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
 	height: 0;
 	z-index: -100;
 }
@@ -205,7 +206,7 @@ strong {
 -----------------------------------------*/
 
 .navbar {
-	z-index: 9;
+	z-index: 10;
 	right: 0;
 	left: 0;
 	padding-top: 15px;
@@ -221,6 +222,7 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-right: 15px;
 	padding-left: 15px;
+	text-align: center;
 }
 
 .navbar-nav .nav-link::after {
@@ -246,7 +248,8 @@ strong {
 }
 
 .navbar-nav .nav-link {
-	color: var(--p-color);
+	/* color: var(--p-color); */
+	color: #fff;
 	font-size: 18px;
 	font-weight: var(--font-weight-bold);
 	position: relative;
@@ -264,11 +267,13 @@ strong {
 .navbar-nav .nav-item.active .nav-link,
 .nav-link:focus,
 .nav-link:hover {
-	color: var(--dark-color);
+	/* color: var(--dark-color); */
+	color: var(--primary-color);
 }
 
 .nav-link:focus {
-	color: var(--p-color);
+	/* color: var(--p-color); */
+	color: var(--primary-color);
 }
 
 .navbar-toggler {
@@ -308,7 +313,8 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-	background: var(--dark-color);
+	/* background: var(--dark-color); */
+	background: #fff;
 	transition: background 10ms 300ms ease;
 	display: block;
 	width: 30px;
@@ -325,7 +331,8 @@ strong {
 	position: absolute;
 	right: 0;
 	left: 0;
-	background: var(--dark-color);
+	/* background: var(--dark-color); */
+	background: #fff;
 	width: 30px;
 	height: 2px;
 	content: '';
@@ -345,6 +352,11 @@ strong {
 .hero {
 	position: relative;
 	overflow: hidden;
+	background: url(/images/portfolio/IMG_2.jpg) no-repeat fixed center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 @media screen and (min-width: 992px) {
@@ -650,7 +662,7 @@ strong {
 
 .contact-us {
 	font-size: 20px !important;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .nav-logo {
@@ -662,6 +674,14 @@ strong {
 	font-weight: 400;
 	text-align: center;
 	font-size: 16px;
+}
+
+.navbar.bg-light {
+	background-color: #000 !important;
+}
+
+.underline {
+	border-bottom: 5px solid black;
 }
 
 /*---------------------------------------
@@ -679,7 +699,7 @@ strong {
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: 33px;
 	}
 
 	h3 {
@@ -746,8 +766,17 @@ strong {
 		display: none;
 	}
 
-	.videoWrapper {
+	/* .videoWrapper {
 		background: url(/images/portfolio/IMG_4.jpg) no-repeat center center !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 90vh;
+	} */
+
+	.hero {
+		background: url(/images/portfolio/IMG_2.jpg) no-repeat center center !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
