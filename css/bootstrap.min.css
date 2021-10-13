@@ -6809,7 +6809,7 @@ fieldset:disabled .btn {
 	background-color: #0dcaf0 !important;
 }
 .bg-warning {
-	background-color: #ff696c !important;
+	background-color: #000 !important;
 }
 .bg-danger {
 	background-color: #dc3545 !important;
