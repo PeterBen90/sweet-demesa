@@ -66,7 +66,7 @@ h6 {
 
 h1,
 h2 {
-	font-weight: var(--font-weight-black);
+	font-weight: var(--font-weight-bold);
 }
 
 h1 {
@@ -251,7 +251,7 @@ strong {
 	/* color: var(--p-color); */
 	color: #fff;
 	font-size: 18px;
-	font-weight: var(--font-weight-bold);
+	font-weight: var(--font-weight-normal);
 	position: relative;
 }
 
@@ -449,6 +449,10 @@ strong {
 	background: var(--section-bg-color);
 }
 
+/* #gallery {
+	background: var(--section-bg-color);
+} */
+
 .news-thumb {
 	position: relative;
 }
@@ -551,8 +555,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
+	padding-top: 9rem;
+	padding-bottom: 9rem;
 }
 
 /*---------------------------------------
@@ -900,6 +904,14 @@ strong {
 	}
 }
 
+.about-us-2 {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.sub-header {
+	font-weight: 400;
+}
 @media screen and (max-width: 360px) {
 	h1 {
 		font-size: 32px;
@@ -911,6 +923,10 @@ strong {
 
 	.about-us {
 		font-size: 12px;
+	}
+
+	.about-us-2 {
+		font-size: 16px;
 	}
 
 	.logo-main {
